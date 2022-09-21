@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-image: url('./assets/bgi.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.signupform{
+    width: 300px;
+    background: #fff;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+    padding: 20px;
+    text-align: center; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.signupform h1{
+    color: #1ca8db;
+    margin-bottom: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.input-box{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: 1px solid #999;
+    outline: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+    color: #fff;
+    background: lightcoral;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
 }
